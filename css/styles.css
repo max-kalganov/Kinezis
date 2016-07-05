@@ -1,0 +1,144 @@
+	
+/* CSS Document */
+
+#logo{
+margin-left:5%;
+float:left;
+}
+#header a:linked{color:#000000;}
+#header a:visited{color:blue;}
+#header a:hover{color:#FFFFFF;}
+#header a:default{color:blue;}
+
+#header a{
+
+text-decoration:none;
+font-weight:400;
+color:blue;
+}
+
+#header ul li{
+    
+margin-left:40px;
+}
+#header ul{
+min-width:600px;
+text-align:right;
+margin-top:30px;
+margin-bottom:20px;
+margin-right:10%;
+
+}
+#header{
+	
+background-color:#CADEFF;
+	padding-bottom:0px; 
+	/*min-width:1300px;
+	*/margin-top:0px;
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	border-bottom:1px solid;
+	border-bottom-color:#0000FF;
+		
+}
+
+#header li{
+font-family:Arial, Helvetica, sans-serif;
+font-size:17px;
+display:inline;
+}
+
+#main{
+margin:0px;
+}
+.blue_text{
+color:#0000FF;}
+#huge{
+font-size:70px;}
+
+
+
+.between_part :first-child{
+padding-top: 300px;
+}
+.between_part p{
+margin:0px;
+    font-family: "PT Serif",serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    font-family: "Arial","Helvetica","sans-serif";
+    font-size: 36px;
+    line-height: 1.3em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: .015em;
+    font-weight: bold;
+    font-style: normal;
+
+
+color : white;		
+text-align:center;
+
+}
+.between_part{
+height:730px;
+	width:100%;
+
+}
+
+.main_parts p{margin:0px;}
+.main_parts{
+font-size:20px;
+font-family: "Arial","Helvetica","sans-serif";
+margin:0px 150px 0px 150px;
+padding:80px 120px 80px 120px;
+}
+
+#footer{
+background-color:#000000;
+color:#FFFFFF;
+padding:30px;
+text-align:center;
+}
+
+#main_inf td{
+text-align:center;
+max-width:550px;
+padding:0px 40px 0px 40px;
+}
+.photo{
+height:170px;
+width:170px;
+}
+
+#footer ul li{
+	padding:40px;
+}
+#footer ul{
+padding-left:0px;}
+
+body{
+background-color:#CADEFF;
+
+
+padding:0px;
+margin:0px;
+min-height:500px;
+min-width:1300px;
+max-width:1400px;
+
+}
+	.li_style{
+	font-family: "Arial","Helvetica","sans-serif";
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+   

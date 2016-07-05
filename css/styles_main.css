@@ -1,0 +1,49 @@
+
+#first_space{
+margin-top:105px;
+background:url(../img/space_1.jpg) no-repeat center;
+background-size:100%;	
+}
+
+#second_space{
+background:url(../img/space_2.jpg) no-repeat center;
+background-size:100%;
+}
+
+#third_space{
+background:url(../img/space_3.jpg) no-repeat center;
+background-size:100%;
+
+}
+#forth_space{
+background:url(../img/space_4_1.jpg) no-repeat center;
+background-size:100%;
+
+}
+
+
+#forth_space :first-child{
+padding-top:200px}
+
+ li{
+font-family:Arial, Helvetica, sans-serif;
+font-size:17px;
+display:inline;
+
+}
+
+
+
+#trainer tr td{
+padding-top:10px;
+text-align:left;
+max-width:550px;
+
+}
+#trainer td{
+padding:0px 10px 0px 10px;
+
+text-align:center;}
+.pl_pad{
+padding-top:20px;
+}

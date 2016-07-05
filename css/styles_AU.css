@@ -1,0 +1,37 @@
+/* CSS Document */
+
+#first_space{
+margin-top:105px;
+background:url(../img/space_1.jpg) no-repeat center;
+background-size:100%;	
+}
+.between_part{
+height:730px;                  /* 650px;*/
+	width:100%;
+
+}
+.between_part :first-child{
+padding-top: 300px;
+}
+body{
+background-color:#CADEFF;
+padding:0px;
+margin:0px;
+min-width:1300px;
+
+}
+#header a:linked{color:blue;}
+#header a:visited{color:blue;}
+#header a:hover{color:#FFFFFF;}
+
+ li{
+font-family:Arial, Helvetica, sans-serif;
+font-size:17px;
+display:inline;
+}
+
+ .photo{
+   
+     margin-right: 20px;
+ }
+
