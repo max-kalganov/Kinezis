@@ -85,6 +85,48 @@ jQuery(document).ready(function($) {
 		}
 	  scrollTop = $(this).scrollTop();		
 	});
+
+
+
+
+	
+    //Menu logic...
+
+
+	var BG = 'background';
+	var LM_Sizes = ['0', '-40px', '-80px', '-119px'];
+	var LM_Name = '_pict';
+	var LM_Way = "url('../img/s_odn_fb_vk1.png') ";
+	function Type(aMenuItem) {
+	    if (aMenuItem == 'skype')
+	        return 0;
+	    else if (aMenuItem == 'inst')
+	        return 1;
+	    else if (aMenuItem == 'faceb')
+	        return 2;
+	    else if (aMenuItem == 'vk')
+	        return 3;
+	    return 0;
+	}
+
+	function LM_In(aMenuItem) {
+	    $('#' + aMenuItem + LM_Name).css(BG, LM_Way + LM_Sizes[Type(aMenuItem)] + ' -33px ')
+	}
+	function LM_Out(aMenuItem) {
+	    $('#' + aMenuItem + LM_Name).css(BG, LM_Way + LM_Sizes[Type(aMenuItem)] + ' 0px ')
+	}
+    
+	$('#skype_pict').hover(function () { LM_In('skype') }, function () { LM_Out('skype') });
+	$('#inst_pict').hover(function () { LM_In('inst') }, function () { LM_Out('inst') });
+	$('#faceb_pict').hover(function () { LM_In('faceb') }, function () { LM_Out('faceb') });
+	$('#vk_pict').hover(function () { LM_In('vk') }, function () { LM_Out('vk') });
+
+	$('#skype_pict').click(function () { LM_In('skype') });
+	$('#inst_pict').click(function () { LM_In('inst') });
+	$('#faceb_pict').click(function () { LM_In('faceb') });
+	$('#vk_pict').click(function () { LM_In('vk') });
+    
+
 });
 function getScrollTop(){ ///  verifica el calculo total en pixeles de toda la pagina
 
@@ -99,3 +141,7 @@ function getScrollTop(){ ///  verifica el calculo total en pixeles de toda la pa
         return D.scrollTop;
     }
 }
+
+
+
+
