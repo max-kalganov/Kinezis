@@ -1,0 +1,55 @@
+#first_space{
+margin-top:105px;
+padding-top:15px;
+background:url(../img/Map.png) no-repeat center;
+background-size:100%;	
+}
+
+li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    display:inline;
+}
+#header ul .links{
+    margin-left:60px;
+}
+
+#header ul #phone{
+    margin-left:100px;
+}
+
+#header #links_ul{
+    margin-right:135px;
+}
+.links{
+    padding:14px 16px 0px 15px;
+    height:48px;
+    width:46px;
+    
+
+}
+
+/*#skype_pict{
+    background:url('../img/s_odn_fb_vk1.png') 0px -33px;
+}*/
+
+#inst_pict{
+    background:url("../img/s_odn_fb_vk1.png") -40px -33px;
+}
+#faceb_pict{
+    background:url("../img/s_odn_fb_vk1.png") -80px -33px;
+}
+#vk_pict{
+    background:url("../img/s_odn_fb_vk1.png") -119px -33px;
+}
+
+/*li{
+font-family:Arial, Helvetica, sans-serif;
+font-size:17px;
+display:inline;
+}
+
+ol li{
+    text-align:left;
+    display:block;
+}*/
